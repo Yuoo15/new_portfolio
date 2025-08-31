@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.content{
+    height: auto;
+    width: 100%;;
+}
+
+.h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 92px;
+    line-height: 82px;
+    position: relative;
+}
+
+.project{
+    display: flex;
+    gap: 21px;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.project::-webkit-scrollbar {
+    display: none; 
+}
+
+.project > span{
+    scroll-snap-align: center;
+}
+
+.button{
+    border: none;
+    border-radius: 50%;
+    background-color: #F59E0B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+}
+
+.cont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    gap:10px;
+    margin-top: 60px;
+}
+@media(max-width:500px){
+    .h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 56px;
+        line-height: 50px;
+    }
+    .project{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        gap: 21px;
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        box-sizing: border-box;
+    }
+    .project > span{
+        scroll-snap-align: center;
+    }
+    }

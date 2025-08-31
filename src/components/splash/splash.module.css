@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.splash{
+    height: 100dvh;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.image{
+    border-radius: 50%;
+    background-color: white;
+}
+
+.card{
+    background: linear-gradient(135deg, #FBED96 0%, #ABECD6 100%);
+    border-radius: 44px;
+    width: 100%;
+    height: auto;
+    padding: 38px 130px ;
+    box-sizing: border-box;
+    display: flex;
+    gap:42px;
+    flex-direction: column;
+}
+
+.card_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+}
+
+.p{
+    color:#111827;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-size: 44px;
+    font-style: normal;
+    margin: 0;
+}
+
+.h1{
+    color:#111827;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    margin: 0;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap:16px
+}
+
+.a{
+    color:#111827;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight:bold;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.line{
+    color: #08C8F6;
+    position: relative;
+    background:url('../../assets/Vector1.png') no-repeat center bottom;
+}
+
+.text{
+    display: flex;
+    gap:8px;
+    flex-direction: column;
+}
+
+@media(max-width: 500px){
+    .p{
+        color:#111827;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:700;
+        font-size: 22px;
+        font-style: normal;
+        margin: 0;
+    }
+    .h1{
+        color:#111827;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 40px;
+        margin: 0;
+    }
+    .card{
+        background: linear-gradient(135deg, #FBED96 0%, #ABECD6 100%);
+        border-radius: 44px;
+        width: 100%;
+        height: auto;
+        padding:30px 24px  ;
+        box-sizing: border-box;
+        display: flex;
+        gap:42px;
+        flex-direction: column;
+    }
+    .card_content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 42px;
+        text-align: center;
+    }
+    .text{
+        display: flex;
+        gap:8px;
+        flex-direction: column;
+    }
+
+    .splash{
+        height: auto;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .buttons{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        column-gap:16px
+    }
+}
