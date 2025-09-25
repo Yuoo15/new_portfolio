@@ -7,7 +7,7 @@ import hp from '../../assets/ph.png'
 import port from '../../assets/port.png'
 import array_l from '../../assets/array_l.png'
 import array_r from '../../assets/array_r.png'
-
+import ss from '../../assets/ss.jfif'
 export default () => {
     const project = [
         {
@@ -54,6 +54,18 @@ export default () => {
             skils: [
                 { id: 3, skil: 'React' },
                 { id: 3, skil: 'Vite', color: '#111827' }
+            ]
+        },
+                {
+            id: 5,
+            text: 'Школьный проект',
+            gitt: 'https://github.com/Yuoo15/school-project-gpt-',
+            src: 'https://yuoo15.github.io/school-project-gpt-/',
+            image: ss,
+            skils: [
+                { id: 3, skil: 'React' },
+                { id: 3, skil: 'Vite', color: '#111827' },
+                { id: 3, skil: 'React router', color: '#34D399' }
             ]
         }
     ]
