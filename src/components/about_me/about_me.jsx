@@ -1,6 +1,6 @@
 import styles from './about.module.css'
 import books from '../../assets/about.png'
-import R_icon from '../../assets/react-icon.png'
+import R_icon from '../../assets/temp.png'
 import python from '../../assets/python.png'
 import figma from '../../assets/figma.webp'
 export default ()=>{
