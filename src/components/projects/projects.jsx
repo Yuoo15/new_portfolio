@@ -14,7 +14,7 @@ export default () => {
             id: 1,
             text: 'Онлайн магазин',
             gitt: 'https://github.com/Yuoo15/Online-Shop',
-            src: 'https://yuoo15.github.io/Online-Shop/',
+            src: 'https://online-shop-seven-ivory.vercel.app',
             image: image,
             skils: [
                 { id: 1, skil: 'React' },
@@ -26,7 +26,7 @@ export default () => {
             id: 2,
             text: 'Портфолио',
             gitt: 'https://github.com/Yuoo15/my-portfolio',
-            src: 'https://yuoo15.github.io/my-portfolio/',
+            src: 'https://my-portfolio-ten-phi-94.vercel.app',
             image: old,
             skils: [
                 { id: 2, skil: 'html' },
@@ -38,7 +38,7 @@ export default () => {
             id: 3,
             text: 'Шаблон для ДР',
             gitt: 'https://github.com/Yuoo15/Name',
-            src: 'https://yuoo15.github.io/Name/',
+            src: 'https://name-five-gamma.vercel.app',
             image: hp,
             skils: [
                 { id: 3, skil: 'React' },
@@ -60,7 +60,7 @@ export default () => {
             id: 5,
             text: 'Школьный проект',
             gitt: 'https://github.com/Yuoo15/school-project-gpt-',
-            src: 'https://yuoo15.github.io/school-project-gpt-/',
+            src: 'https://school-project-ruby-kappa.vercel.app',
             image: ss,
             skils: [
                 { id: 3, skil: 'React' },
