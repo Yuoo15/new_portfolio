@@ -5,8 +5,8 @@ import image from '../../assets/Structure.png'
 import old from '../../assets/old.png'
 import hp from '../../assets/ph.png'
 import port from '../../assets/port.png'
-import array_l from '../../assets/array_l.png'
-import array_r from '../../assets/array_r.png'
+import array_l from '../../assets/array-l.png'
+import array_r from '../../assets/array-r.png'
 import ss from '../../assets/ss.jfif'
 export default () => {
     const project = [

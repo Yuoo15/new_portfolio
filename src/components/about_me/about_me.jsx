@@ -1,9 +1,8 @@
 import styles from './about.module.css'
 import books from '../../assets/about.png'
-import R_icon from '../../assets/React_icon.png'
+import R_icon from '../../assets/react-icon.png'
 import python from '../../assets/python.png'
 import figma from '../../assets/figma.webp'
-import array from '../../assets/Array_or.png'
 export default ()=>{
     return(
         <>
