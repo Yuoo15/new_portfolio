@@ -16,7 +16,7 @@ export default ()=>{
                     </div>
                     <div className={styles.text}>
                         <span className={styles.popa}>
-                            <p className={styles.p}>Мне 16 лет, я начинающий веб-разработчик. Владею HTML, CSS, JavaScript, Python, работаю с Git, GitHub, Vite, npm, использую SCSS и React для создания современных интерфейсов.<br /><br />Давайте начнем проект вместе!</p>
+                            <p className={styles.p}>Мне 17 лет, я начинающий веб-разработчик. Владею HTML, CSS, JavaScript, TS, Python, работаю с Git, GitHub, Vite, npm, использую SCSS и React для создания современных интерфейсов.<br /><br />Давайте начнем проект вместе!</p>
                         </span>
                         <h2 className={styles.h2}>Skils</h2>
                         <div className={styles.icons}>

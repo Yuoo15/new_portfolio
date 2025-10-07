@@ -9,7 +9,7 @@ export default()=>{
             <div className={styles.content}>
                 <div className={styles.text}>
                     <h1 className={styles.h1}>У вас есть<br /> идеи?</h1>
-                    <p className={styles.p}>давайте построим его<br /> всместе!</p>
+                    <p className={styles.p}>давайте построим идею<br /> всместе!</p>
                     <a href='mailto:ramazankantaev751@gmail.com' className={styles.a}>ramazankantaev751@gmail.com</a>
                         <div className={styles.socials}>
                             <a href="https://www.instagram.com/ramazz.mp4?igsh=eDk2eGpiZWo5cmM2" target="_blank" rel="noopener noreferrer" className={styles.social}>
@@ -26,7 +26,7 @@ export default()=>{
                 <div className={styles.bg}>
                 </div>
             </div>
-            
+            <p style={{display: 'hidden'}}></p>
         </footer>
         </>
     )

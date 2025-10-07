@@ -18,7 +18,7 @@ export default()=>{
                 </div>
                 <div className={styles.buttons}>
                     <a href='#cont'><Button_black text='Контакты'/></a>
-                    <div className={styles.link}><a href='' className={styles.a}>Кнопка недоступна</a><img src={Array}/></div>
+                    <div className={styles.link}><a href='https://wa.me/77006540387?text=Здраствуйте%2C%20хочу%20заказать%20сайт%20или%20Telegram-бота' className={styles.a}>Заказать</a><img src={Array}/></div>
                 </div>
             </div>
         </div>
